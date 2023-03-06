@@ -1,5 +1,6 @@
 package com.allinedelara.data.api
 
+import kotlinx.coroutines.flow.Flow
 import retrofit2.http.GET
 
 interface Api {

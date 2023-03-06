@@ -1,9 +1,10 @@
 package com.allinedelara.domain.usecases
 
-import com.allinedelara.domain.usecases.repositories.RemoteRepo
+import com.allinedelara.data.repo.RemoteRepo
+import kotlinx.coroutines.flow.Flow
 
-class GetAllImagesUrl(private val remoteRepo: RemoteRepo) : GetAllImages {
-    override suspend fun execute(): List<String> {
+class GetAllImagesUrl(private val remoteRepo: RemoteRepo) {
+    suspend operator fun invoke(): Flow<List<String>> {
         return remoteRepo.getAll()
     }
 }

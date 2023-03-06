@@ -14,6 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "KittyApp"
 include ':app'
-include ':core'
 include ':data'
 include ':domain'
+include ':core'

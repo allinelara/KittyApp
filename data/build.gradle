@@ -35,7 +35,6 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:$retrofit"
     implementation "com.squareup.retrofit2:converter-gson:$retrofit"
     implementation "io.insert-koin:koin-android:$koin"
-    implementation project(':domain')
     implementation "androidx.core:core-ktx:$corektx"
     implementation "androidx.appcompat:appcompat:$appcompat"
     implementation "com.google.android.material:material:$material"

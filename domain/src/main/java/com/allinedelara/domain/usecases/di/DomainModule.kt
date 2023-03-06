@@ -6,3 +6,5 @@ import org.koin.dsl.module
 var moduleDomain = module {
     single { GetAllImagesUrl(get()) }
 }
+
+var moduleData = com.allinedelara.data.di.moduleData

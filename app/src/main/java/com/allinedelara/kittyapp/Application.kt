@@ -1,6 +1,7 @@
 package com.allinedelara.kittyapp
 
 import android.app.Application
+import com.allinedelara.domain.usecases.di.moduleData
 import com.allinedelara.domain.usecases.di.moduleDomain
 import com.allinedelara.kittyapp.di.module
 import org.koin.android.ext.koin.androidContext
@@ -13,8 +14,8 @@ class Application : Application() {
         startKoin {
             androidContext(this@Application)
             modules(module)
-            modules(com.allinedelara.data.di.module)
             modules(moduleDomain)
+            modules(moduleData)
         }
     }
 }

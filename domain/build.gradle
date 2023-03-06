@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
+    implementation project(':data')
     implementation "io.insert-koin:koin-android:$koin"
     implementation "androidx.core:core-ktx:$corektx"
     implementation "androidx.appcompat:appcompat:$appcompat"
