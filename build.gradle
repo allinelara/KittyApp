@@ -10,7 +10,7 @@ buildscript {
         corektx = "1.7.0"
         appcompat= "1.5.1"
         constraintlayout = "2.1.4"
-        material = "1.8.0"
+        material = "1.12.0"
         junit = "4.13.2"
         testjunit = "1.1.4"
         fragmenttesting = "1.4.1"
